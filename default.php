@@ -20,7 +20,8 @@
                 width: 100vw;
                 height: 100vh;
                 min-height: 675px;
-                background-color: #F4F5FF;
+                /*background-color: #F4F5FF;*/
+                background-image: url('https://i.postimg.cc/cJmH5XNd/background.png');
             }
             p {
                 width: 100%;

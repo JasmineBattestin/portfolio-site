@@ -82,6 +82,8 @@ h1 {
     border-radius: 25px; /* Rounded borders */
     padding: 20px 20px; /* Padding to give some space inside the navbar */
     margin-top: 60px;
+    display:flex;
+    text-align: center;
 }
 
 .navbar-list {

@@ -1,10 +1,15 @@
+<!-- APAGAR -->
+
+
+
+
+
 
 <nav class="navbar">
     <ul class="navbar-list">
         <li class="navbar-item"><a href="" class="navbar-link clicked">/home</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/about</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/blog</a></li>
-        <li class="navbar-item"><a href="#" class="navbar-link">/reviews</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/contact</a></li>
     </ul>
 </nav>

@@ -2,7 +2,7 @@
 <html lang="pt">
     <head>
         <title>Hello there!</title>
-        <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/QxVvrkDf/Group-1000007173-1.png">
+        <link rel="icon" type="image/x-icon" href="icon_me.ico">
         <meta charset="utf-8">
 
         <!-- <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">

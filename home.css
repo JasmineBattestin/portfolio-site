@@ -10,7 +10,7 @@ body {
     height: 100vh;
     min-height: 675px;
     /*background-color: #F4F5FF;*/
-    background-image: url('https://i.postimg.cc/QtPJHpdZ/background.png');
+    background-image: url('background.png');
     background-size: cover;
 }
 p {
@@ -28,8 +28,6 @@ p {
 }
 a:hover {
     cursor: pointer;
-    color: #673DE6;
-    text-decoration: underline;
 }
 h1 {
     font-family: 'DM Sans', sans-serif;
@@ -80,21 +78,25 @@ h1 {
 .navbar {
     background-color: rgba(0, 0, 0, 0.64); /* Semi-transparent background color */
     border-radius: 25px; /* Rounded borders */
-    padding: 20px 20px; /* Padding to give some space inside the navbar */
+    padding: 20px 40px; /* Padding to give some space inside the navbar */
     margin-top: 60px;
     display:flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-list {
     list-style-type: none; /* Remove default list styles */
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Use gap for equal spacing between items */
 }
 
 .navbar-item {
     display: inline; /* Display list items horizontally */
-    margin-right: 50px; /* Spacing between list items */
 }
 
 .navbar-link {
@@ -110,7 +112,7 @@ h1 {
 /* CSS for hover effect */
 .navbar-link:hover {
     color: white; /* Text color when hovered */
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* CSS for active (clicked) state */
@@ -118,26 +120,6 @@ h1 {
     color: white; /* Text color when clicked */
     font-weight: bold;
 }
-
-/* Pseudo-element for hover effect */
-/* .navbar-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    z-index: -1; //Ensure it stays behind the text
-    transition: background-color 0.3s; //Add transition for smooth effect
-} */
-
-/* CSS for hover effect on pseudo-element */
-/* .navbar-link:hover::before {
-    background-color: #d35400;
-    
-} */
-
 
 
 @media screen and (max-width: 580px) and (min-width: 0px) {

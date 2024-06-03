@@ -1,19 +1,16 @@
 
 <nav class="navbar">
     <ul class="navbar-list">
-        <li class="navbar-item"><a href="#" class="navbar-link">/home</a></li>
+        <li class="navbar-item"><a href="" class="navbar-link clicked">/home</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/about</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/blog</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/reviews</a></li>
         <li class="navbar-item"><a href="#" class="navbar-link">/contact</a></li>
     </ul>
-    <!-- <a href="/testandoaqui.html" rel="nofollow" target="_blank">
-        <p>About me</p>
-    </a> -->
 </nav>
 
 
-<!-- <div class="content">
+<div class="content">
     <h1>Estou fazendo alguns testes</h1>
     <p>Hahahahaahahahhahahaah</p>
     <div class="link-container">
@@ -51,5 +48,5 @@
         </a>
     </div>
     
-</div> -->
+</div>
 

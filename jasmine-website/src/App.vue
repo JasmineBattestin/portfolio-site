@@ -1,20 +1,27 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import TheWelcome from './components/TheWelcome.vue'
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
+  <div id="app">
+    <Navbar />
+    <!-- <router-view></router-view> -->
+  </div>
+  
+  <header>
+    <!-- <img alt="Pixel Art of Me" class="logo" src="/public/favicon.ico" width="125" height="125" /> -->
+
+    <!-- <div class="wrapper">
       <HelloWorld msg="You did it!" />
-    </div>
+    </div> -->
   </header>
 
-  <main>
+  <!-- <main>
     <TheWelcome />
-  </main>
+  </main> -->
 </template>
 
 <style scoped>

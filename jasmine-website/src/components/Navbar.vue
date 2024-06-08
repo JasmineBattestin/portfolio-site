@@ -16,11 +16,12 @@
  </script>
   
 <style scoped>
+
   .navbar {
       background-color: rgba(0, 0, 0, 0.64); /* Semi-transparent background color */
       border-radius: 25px; /* Rounded borders */
       padding: 20px 40px; /* Padding to give some space inside the navbar */
-      margin-top: 60px;
+      margin-top: 0px;
       display:flex;
       justify-content: center;
       align-items: center;
@@ -62,4 +63,21 @@
       font-weight: bold;
   }
 </style>
+
+
+<style>
+  html, body, #app {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  body {
+    font-family: 'Oxanium', sans-serif;
+    background-color: #f0f0f0; /* Example background color */
+  }
+</style>
+
   

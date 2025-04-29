@@ -1,3 +1,3 @@
 <p>
-  I'm Jasmine.
+  Hi, there! This is just a test page.
 </p>

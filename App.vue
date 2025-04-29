@@ -1,7 +1,7 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
-import Navbar from './components/Navbar.vue';
+import Navbar from '/jasmine-website/src/components/Navbar.vue';
 </script>
 
 <template>

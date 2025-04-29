@@ -19,7 +19,7 @@ body {
   height: 100vh;
   /* min-height: 675px; */
   /*background-color: #F4F5FF;*/
-  background-image: url('../assets/background.png');
+  background-image: url('jasmine-website/assets/background.png');
   background-size: cover;
 }
 
